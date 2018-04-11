@@ -1,0 +1,64 @@
+.container {
+	display: grid;
+	text-align: center;
+	justify-content: space-evenly;
+}
+
+.shin {
+	margin-bottom: 3em;
+}
+
+*:focus {
+	outline: none;
+}
+
+.btn {
+	background-color: black;
+	color: red;
+	border-color: #3939ac;
+	border-width: 3px;
+	border-radius: 50%;
+	font-size: 2em;
+	height: 4em;
+	width: 4em;
+	cursor: pointer;
+}
+
+.vav {
+	height: 30em;
+	grid-template-columns: 15em 15em 15em;
+	grid-template-rows: auto auto auto auto;
+	grid-gap: 3em;
+	color: red;
+	align-content: space-evenly;
+	
+}
+
+#items {
+	padding: 1.5em;
+	
+	text-align: center;
+}
+
+.item-2 {
+	font-size: 1.3em;
+}
+
+.crud {
+	color: red;
+	font-size: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

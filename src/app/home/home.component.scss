@@ -1,0 +1,64 @@
+.container {
+	display: grid;
+	grid-template-columns: 50% auto;
+}
+
+.col {
+	padding-left: 1em;	
+}
+
+.titles {
+	font-size: 1.4em;
+	padding-bottom: 1em;
+	text-decoration: underline #800000;
+}
+
+.aleph {
+	color: purple;
+	text-align: center;
+}
+
+.gimel {
+	grid-template-columns: 1fr;
+	color: #1aff1a;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+textarea:focus, input:focus {
+	outline-color: orange;
+}
+
+input.txt {
+	background-color: black;
+	border-color: #cc00ff;
+	color: #008000;
+}
+
+input.btn {
+	background-color: black;
+	border: solid .137em #996600;
+	color: #cc00ff;
+	cursor: pointer;
+}
+
+.itemCount {
+	color: orange;
+	font-size: .9em;
+}
+
+.mem {
+	color: #0000e6;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

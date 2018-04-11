@@ -1,0 +1,51 @@
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	text-align: center;
+	font-family: 'Raleway', 'Arial';
+}
+
+.col_2 {
+	font-size: 2em;
+}
+
+h1 {
+	color: #660066;
+	font-family: 'Raleway', 'Arial';
+}
+
+p {
+	color: purple;
+}
+
+.color_1 {
+	color: green;
+	font-size: 2em;
+}
+
+.color_2 {
+	color: red;
+	font-size: 1.2em;
+}
+
+.color_3 {
+	color: #1a1aff;
+	font-size: 1.3em;
+}
+
+.color_4 {
+	color: #400080;
+	font-size: 1.7em;
+}
+
+.color_5 {
+	color: #cc99ff;
+	font-size: 2.1em;
+}
+
+.color_6 {
+	color: #b3b3ff;
+	font-size: 1.3em;
+}
+
+

@@ -1,0 +1,19 @@
+<div class="container shin" @easeInOut>
+	<button class="btn" (click)="show = !show">Contact</button>
+</div>
+
+<div class="container vav" *ngIf="show">
+	<div id="items"  class="item-1" @in_1>0</div>
+	<div id="items" class="item-2" @in_2>Joseph Leon</div>
+	<div id="items" class="item-3" @in_3>0</div>
+	<div id="items" class="item-4" @in_4>0</div>
+	<div id="items" class="item-5" @in_5>Phone:<br>(312) 678-7984</div>
+	<div id="items" class="item-6" @in_6>0</div>
+	<div id="items" class="item-7" @in_7>0</div>
+	<div id="items" class="item-8" @in_8>Email:<br>joseph.leon@loop.colum.edu</div>
+	<div id="items" class="item-9" @in_9>0</div> 
+</div>
+
+<div class="container yod" *ngIf="!show" @easeInOut>
+	<p class="crud">The Devil</p>
+</div>

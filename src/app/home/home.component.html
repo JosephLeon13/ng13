@@ -1,0 +1,37 @@
+<div class="container gimel" >
+	<div class="col">
+		<p class="itemCount" >({{ itemCount }})</p>
+		<p>"The Hermit"</p>
+
+		<form>
+			<input type="text" class="txt" name="item" placeholder=" . . . . " [(ngModel)]="contentText">
+			<input type="submit" class="btn" [value]="btnText" (click)="addName()">
+		</form>
+	</div>
+</div>
+<div class="container aleph">
+	<div class="col">
+		<p class="titles">XIII</p>
+	</div>
+	<div class="col">
+		<p class="titles">IIIX</p>
+	</div>
+</div>
+<div class="container gimel" [@names]="names.length">
+	<div class="col">
+		<p class="mem" *ngFor="let name of names; let i = index" (click)="removeItem(i)">
+			{{ name }}
+		</p>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
